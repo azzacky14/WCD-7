@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>LIFEHUB | Track Your Life, Heal Your Earth</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+<link rel="stylesheet" href="css/global.css">
+<link rel="stylesheet" href="css/navbar.css">
+<link rel="stylesheet" href="css/landing.css">
+<link rel="stylesheet" href="css/animation.css">
+
+<style>
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+overflow-x:hidden;
+}
+
+section{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:4rem;
+}
+
+.big-text{
+font-size:clamp(3rem,8vw,8rem);
+font-weight:700;
+line-height:1.1;
+}
+
+.small-text{
+font-size:1.2rem;
+margin-top:1.5rem;
+opacity:0.8;
+}
+
+.fade-earth{
+animation:float 3s ease-in-out infinite;
+}
+
+@keyframes float{
+0%{transform:translateY(0px);}
+50%{transform:translateY(-20px);}
+100%{transform:translateY(0px);}
+}
+
+.glow-btn{
+transition:.3s;
+}
+
+.glow-btn:hover{
+transform:translateY(-5px);
+box-shadow:0 20px 40px rgba(0,0,0,.15);
+}
+
+</style>
+
+</head>
+<body class="font-sans">
+
+<nav class="navbar">
+
+    <div class="logo">
+        LIFEHUB
+    </div>
+
+    <div class="nav-links">
+
+        <a href="index.html">Home</a>
+
+        <a href="pages/about.html">About</a>
+
+        <a href="pages/privacy.html">Privacy</a>
+
+        <a href="pages/terms.html">Terms</a>
+
+    </div>
+
+</nav>
+
+<!-- SECTION 1 -->
+
+<section id="home" class="bg-[#FFFFFF] text-center">
+
+<div data-aos="fade-up">
+
+<h1 class="big-text text-gray-900">
+Every day begins<br>
+with a plan.
+</h1>
+
+<p class="small-text text-gray-600">
+But not every plan becomes progress.
+</p>
+
+</div>
+
+</section>
+
+<!-- SECTION 2 -->
+
+<section class="bg-[#E0F2FE] text-gray text-center">
+
+<div data-aos="fade-up">
+
+<h1 class="big-text">
+Tasks pile up.
+</h1>
+
+<p class="small-text">
+Deadlines, distractions, and unfinished goals.
+</p>
+
+</div>
+
+</section>
+
+<!-- SECTION 3 -->
+
+<section class="bg-[#CFFAFE] text-center">
+
+<div data-aos="fade-up">
+
+<h1 class="big-text text-black-900">
+Habits fade.
+</h1>
+
+<p class="small-text text-black-800">
+Consistency becomes harder every day.
+</p>
+
+</div>
+
+</section>
+
+<!-- SECTION 4 -->
+
+<section class="bg-[#CCFBF1] text-center">
+
+<div data-aos="fade-up">
+
+<h1 class="big-text text-gray-900">
+Focus disappears.
+</h1>
+
+<p class="small-text text-gray-700">
+Notifications. Social media.
+Endless distractions.
+</p>
+
+</div>
+
+</section>
+
+<!-- SECTION 5 -->
+
+<section class="bg-[#FAFAF9] text-center">
+
+<div data-aos="zoom-in">
+
+<div class="text-8xl fade-earth mb-8">
+🌎
+</div>
+
+<h1 class="big-text text-gray-900">
+And somewhere<br>
+along the way...
+</h1>
+
+<p class="small-text text-gray-600">
+We forget the world around us.
+</p>
+
+</div>
+
+</section>
+
+<!-- SECTION 6 -->
+
+<section class="bg-[#0F172A] text-center text-white">
+
+<div data-aos="fade-up">
+
+<h1 class="big-text">
+What if managing<br>
+your life could also<br>
+help heal the Earth?
+</h1>
+
+</div>
+
+</section>
+
+<!-- SECTION 7 -->
+
+<section class="bg-gradient-to-b from-emerald-500 to-blue-600 text-center text-white">
+
+<div data-aos="zoom-in">
+
+<h1 class="text-7xl font-bold mb-8">
+LIFEHUB
+</h1>
+
+<p class="text-2xl mb-4">
+Track Your Life.
+</p>
+
+<p class="text-2xl mb-12">
+Heal Your Earth.
+</p>
+
+<div class="text-8xl mb-12 fade-earth">
+🌱
+</div>
+
+<a href="pages/dashboard.html"
+class="bg-white text-black px-10 py-5 rounded-full text-lg font-semibold glow-btn">
+Enter LIFEHUB
+</a>
+
+</div>
+
+</section>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+AOS.init({
+duration:1000,
+once:false
+});
+</script>
+
+</body>
+</html>
